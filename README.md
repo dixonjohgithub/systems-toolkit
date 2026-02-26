@@ -69,6 +69,8 @@ The framework Jiang is really describing is: **stop performing, start building**
 | File | Description |
 | ---- | ----------- |
 | [Prof. Jiang Xueqin's Most Important Lecture](docs/Prof_Jiang_Xueqins_Most_Important_Lecture_Youll_Ev_20260225_211331.md) | Full transcript and key point summary of Prof. Jiang's lecture on structural power — covers how power operates through bottlenecks, filtering, cognitive parity, and systemic inevitability rather than charisma or networking. |
+| [Agentic Intake Confluence](docs/Agentic-Intake-Confluence.docx) | Confluence documentation for the Agentic Intake process. |
+| [Agentic Intake Deck](docs/Agentic-Intake-Deck.pptx) | Presentation deck for the Agentic Intake process. |
 
 ## Getting Started
 
