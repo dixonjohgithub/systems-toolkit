@@ -64,6 +64,12 @@ Every interaction is potentially observed by proxy. How you treat people with no
 
 The framework Jiang is really describing is: **stop performing, start building**. Build genuine capability, make your thinking visible in contexts that matter, solve problems that create dependencies, and let structural inevitability do the work that networking never could. The timeline is slow by design — and the slowness is a feature, not a bug, because it filters out people who can't sustain performance under ambiguity.
 
+## Documentation
+
+| File | Description |
+| ---- | ----------- |
+| [Prof. Jiang Xueqin's Most Important Lecture](docs/Prof_Jiang_Xueqins_Most_Important_Lecture_Youll_Ev_20260225_211331.md) | Full transcript and key point summary of Prof. Jiang's lecture on structural power — covers how power operates through bottlenecks, filtering, cognitive parity, and systemic inevitability rather than charisma or networking. |
+
 ## Getting Started
 
 ### Prerequisites
