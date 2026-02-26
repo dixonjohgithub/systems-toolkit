@@ -1,6 +1,68 @@
-# Getting Started with Create React App
+# Systems Language Toolkit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A template-driven toolkit for developing responses using structural power frameworks, based on Prof. Jiang's core argument: **Power is Structural, Not Psychological**.
+
+## Motivation
+
+The central thesis is simple but counterintuitive: stop trying to impress people and start becoming structurally necessary. The following principles form the foundation of this toolkit.
+
+### 1. Power Lives in Bottlenecks, Not Personalities
+
+Powerful people aren't powerful because of charisma — they control chokepoints through which decisions, resources, or coordination must flow. Think the Fed chair, a VC, or the permit coordinator on a film set.
+
+**How to implement it:** Map the system you want to operate in. Ask yourself where the actual decision bottlenecks are — not who has the fancy title, but whose absence would stop things from moving. Then figure out how to become relevant to that node, not the most visible one.
+
+### 2. Signal vs. Noise
+
+Powerful people have aggressive, unconscious filters. Most people think they're sending signal when they're broadcasting noise. "I'm passionate about making a difference" is noise. "We have 80,000 DAUs, 65% day-30 retention, raising a $2M seed — are you investing in consumer social?" is signal.
+
+**How to implement it:** Audit everything you say and write when reaching out to people above you. Remove all vague intent ("pick your brain"), emotional language ("this is my passion"), and generic ambition. Replace with specificity: your role, your metrics, the precise constraint you're addressing. If you can't state your value in two concrete sentences, you haven't clarified it yet.
+
+### 3. Show Up Complete, Not Dependent
+
+Desperation repels. When you signal that someone's response is critical to your stability, you're creating emotional debt they never agreed to carry. The paradox: the more you need something, the less likely you are to get it.
+
+**How to implement it:** Before reaching out to anyone powerful, make sure you have a viable path forward without them. Their participation should be accelerating, not enabling. This isn't about faking confidence — it's about actually building enough momentum in your work that any given conversation becomes additive rather than existential.
+
+### 4. Cognitive Parity Over Credentials
+
+Power connects laterally — to people who see the system the same way — regardless of title or seniority. A mid-level analyst who understands second-order effects is more interesting to a CEO than a senior executive who doesn't. Cognitive parity can't be faked; gaps show up immediately in conversation.
+
+**How to implement it:** Study the systems you want to operate in deeply enough to anticipate the downstream consequences that decision-makers worry about. Before pitching an idea, ask yourself: what are the three things a seasoned operator would immediately push back on? Address those proactively. If you can't anticipate them, you're not yet thinking at the right level of complexity.
+
+### 5. Use Systems Language, Not Moral or Emotional Language
+
+"We should help these people because it's the right thing to do" signals naivety. "Non-intervention creates downstream instability that costs more to manage than front-end investment" signals consequentialist sophistication. Same values, completely different filtering result.
+
+**How to implement it:** Practice translating your moral or emotional arguments into systems language — incentives, trade-offs, constraints, downstream effects. This doesn't mean abandoning your values; it means framing them in the language of consequences, which is what decision-makers actually respond to. In your context with public health and mental health research, this matters a lot: "adolescent suicide is a tragedy" is noise in a funding conversation; "early intervention reduces long-term system cost by X and has a Y-year ROI" passes the filter.
+
+### 6. Think in Feedback Loops, Not Outcomes
+
+First-order thinking: "If we do X, Y happens." Elite thinking: "If we do X, Y happens, which changes Z, which creates conditions that make X harder/easier next time." Power people seem to "overthink" because they're modeling the full system, not just the immediate result.
+
+**How to implement it:** For any proposal or decision, force yourself to think two steps further than feels necessary. What does the second-order effect look like? What precedent does this set? What does it look like 6 months after adoption? This is a muscle you build deliberately — it's why your work on SHAP interpretation and longitudinal datasets actually gives you a real advantage here; you already think in lagged effects.
+
+### 7. Restraint as Signal
+
+The person who waits, makes one precise observation, and doesn't over-explain reads as more powerful than the person who fills every silence with elaboration. Over-explaining signals you don't trust the listener; oversharing signals poor discretion.
+
+**How to implement it:** Say exactly as much as needed — no more. In writing, cut your emails by 30% after drafting. In meetings, hold back one contribution you were going to make and see what happens. Practice tolerating silence without filling it. This is particularly hard in AI Hub meetings or research presentations where you may feel pressure to demonstrate value constantly.
+
+### 8. Become Structurally Inevitable, Don't Seek Access
+
+This is the capstone. The most effective path to access is making yourself structurally necessary — such that excluding you creates a problem. You don't get invited because you asked; you get invited because the system has no other good option.
+
+**How to implement it:** Focus on a specific, genuine capability gap in your domain and fill it so completely that you become the go-to node. For your work, this could look like being the person in your organization who best understands how to apply ML to YRBS/youth mental health data at scale, publishes clearly, and makes your thinking visible. Senti-Bridge is actually a good example of this framing — you're not asking for a seat at the table, you're solving a problem (offline Edge AI for underserved communities) that nobody else is solving in that specific way.
+
+### 9. Reputation Travels Before You Do
+
+Every interaction is potentially observed by proxy. How you treat people with nothing to offer you is the truest signal of your character, and those signals propagate through networks faster than you do. Power often knows of you before you meet.
+
+**How to implement it:** There are no "unimportant" interactions. Be as thoughtful with junior colleagues and peripheral contacts as you are with decision-makers. Your reputation is the aggregate of all your behaviors over time — it can't be manufactured for specific moments.
+
+## The Bottom Line
+
+The framework Jiang is really describing is: **stop performing, start building**. Build genuine capability, make your thinking visible in contexts that matter, solve problems that create dependencies, and let structural inevitability do the work that networking never could. The timeline is slow by design — and the slowness is a feature, not a bug, because it filters out people who can't sustain performance under ambiguity.
 
 ## Available Scripts
 
@@ -8,63 +70,12 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Builds the app for production to the `build` folder.
