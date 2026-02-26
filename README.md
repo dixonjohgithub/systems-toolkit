@@ -64,6 +64,30 @@ Every interaction is potentially observed by proxy. How you treat people with no
 
 The framework Jiang is really describing is: **stop performing, start building**. Build genuine capability, make your thinking visible in contexts that matter, solve problems that create dependencies, and let structural inevitability do the work that networking never could. The timeline is slow by design — and the slowness is a feature, not a bug, because it filters out people who can't sustain performance under ambiguity.
 
+## Features
+
+### Template Engine
+
+Six categories of structured templates for translating everyday communication into systems language:
+
+- **Email** — Proposal, follow-up, and cold outreach templates framed around constraints, trade-offs, and precise asks
+- **Meeting** — Pre-meeting prep and post-meeting notes using decision, incentive, and downstream-effect structures
+- **Ideation** — Stress-test ideas and translate emotional framing into systems language pitches
+- **Project** — Charter and status update templates that communicate in consequence terms
+- **Daily Practice** — Translation drills and signal/noise audits for daily reinforcement
+- **Discovery** — Environment scans, bottleneck finders, stakeholder power maps, opportunity scorecards, and recon debriefs
+
+### Interactive Mind Map
+
+A visual, drag-and-drop mind map for mapping structural power concepts and situational analysis:
+
+- **3 preset maps** — Full Framework (8 core principles), Situational Analysis, and Daily Practice Loop
+- **Node creation** — Click `+ Node` in the toolbar for free-floating nodes, or select a node and click `+` to add a child
+- **Node editing** — Double-click any node to rename it; drag nodes to reposition
+- **Node deletion** — Select a node and click `×` to remove it and all its descendants (root nodes are protected)
+- **Save/Load** — Export your mindmap as JSON and reload it later to continue editing
+- **Pan & zoom** — Scroll to zoom, drag the canvas to pan, use `+`/`−` controls or `Reset`
+
 ## Documentation
 
 | File | Description |
@@ -76,7 +100,7 @@ The framework Jiang is really describing is: **stop performing, start building**
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (v18 or higher)
 - npm (included with Node.js)
 
 ### Install Dependencies
@@ -85,17 +109,17 @@ The framework Jiang is really describing is: **stop performing, start building**
 npm install
 ```
 
-### Start the Application
+### Start the Development Server
 
 ```bash
-npm start
+npm run dev
 ```
 
-This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload automatically when you make changes.
+This runs the app in development mode using Vite. It will automatically open [http://localhost:3000](http://localhost:3000) in your browser. The page will hot-reload when you make changes.
 
-### Stop the Application
+### Stop the Development Server
 
-Press `Ctrl + C` in the terminal where the app is running.
+Press `Ctrl + C` in the terminal where the server is running.
 
 ### Build for Production
 
@@ -103,7 +127,15 @@ Press `Ctrl + C` in the terminal where the app is running.
 npm run build
 ```
 
-Builds the app for production to the `build` folder.
+Builds the app for production to the `dist` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+Serves the production build locally for testing before deployment.
 
 ### Run Tests
 
@@ -111,17 +143,32 @@ Builds the app for production to the `build` folder.
 npm test
 ```
 
-Launches the test runner in interactive watch mode.
+Runs the test suite once using Vitest.
 
-## Required Libraries
+```bash
+npm run test:watch
+```
+
+Runs Vitest in watch mode, re-running tests automatically as files change.
+
+## Dependencies
+
+### Runtime
 
 | Package | Version | Description |
 |---------|---------|-------------|
 | react | ^19.2.4 | Core React library for building UI components |
 | react-dom | ^19.2.4 | React DOM rendering |
-| react-scripts | 5.0.1 | Create React App build tooling (Webpack, Babel, ESLint) |
-| web-vitals | ^2.1.4 | Web performance metrics |
 | @testing-library/react | ^16.3.2 | React component testing utilities |
 | @testing-library/dom | ^10.4.1 | DOM testing utilities |
-| @testing-library/jest-dom | ^6.9.1 | Custom Jest matchers for DOM assertions |
 | @testing-library/user-event | ^13.5.0 | Simulates user interactions for testing |
+
+### Development
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| vite | ^6.0.7 | Fast build tool and dev server |
+| @vitejs/plugin-react | ^4.3.4 | Vite plugin for React (JSX, Fast Refresh) |
+| vitest | ^2.1.8 | Vite-native test runner |
+| jsdom | ^25.0.1 | DOM environment for tests |
+| @testing-library/jest-dom | ^6.9.1 | Custom matchers for DOM assertions |
