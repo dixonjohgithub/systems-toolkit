@@ -64,18 +64,56 @@ Every interaction is potentially observed by proxy. How you treat people with no
 
 The framework Jiang is really describing is: **stop performing, start building**. Build genuine capability, make your thinking visible in contexts that matter, solve problems that create dependencies, and let structural inevitability do the work that networking never could. The timeline is slow by design — and the slowness is a feature, not a bug, because it filters out people who can't sustain performance under ambiguity.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm (included with Node.js)
 
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install Dependencies
 
-### `npm test`
+```bash
+npm install
+```
+
+### Start the Application
+
+```bash
+npm start
+```
+
+This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload automatically when you make changes.
+
+### Stop the Application
+
+Press `Ctrl + C` in the terminal where the app is running.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Builds the app for production to the `build` folder.
+
+### Run Tests
+
+```bash
+npm test
+```
 
 Launches the test runner in interactive watch mode.
 
-### `npm run build`
+## Required Libraries
 
-Builds the app for production to the `build` folder.
+| Package | Version | Description |
+|---------|---------|-------------|
+| react | ^19.2.4 | Core React library for building UI components |
+| react-dom | ^19.2.4 | React DOM rendering |
+| react-scripts | 5.0.1 | Create React App build tooling (Webpack, Babel, ESLint) |
+| web-vitals | ^2.1.4 | Web performance metrics |
+| @testing-library/react | ^16.3.2 | React component testing utilities |
+| @testing-library/dom | ^10.4.1 | DOM testing utilities |
+| @testing-library/jest-dom | ^6.9.1 | Custom Jest matchers for DOM assertions |
+| @testing-library/user-event | ^13.5.0 | Simulates user interactions for testing |
